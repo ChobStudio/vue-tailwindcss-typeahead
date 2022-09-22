@@ -1,5 +1,8 @@
 {
-  "name": "@chobstudio/vue-tailwindcss-typeahead",
+  "name": "@miokung/vue-tailwindcss-typeahead",
+  "repository": {
+    "url": "git://github.com/miokung/vue-tailwindcss-typeahead.git"
+  },
   "version": "1.0.1",
   "description": "",
   "main": "dist/vue-tailwindcss-typeahead.ssr.js",
