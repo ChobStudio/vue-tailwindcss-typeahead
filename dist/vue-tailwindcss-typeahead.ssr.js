@@ -107,7 +107,7 @@ function _nonIterableSpread() {
   created: function created() {
     var _this2 = this;
 
-    if (this.selectedData != 0) {
+    if (this.selectedData) {
       var selected = this.lists.filter(function (item) {
         if (item.id == _this2.selectedData) {
           return true;
