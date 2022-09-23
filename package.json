@@ -1,6 +1,6 @@
 {
-  "name": "@chobstudio/vue-tailwindcss-typeahead",
-  "version": "1.0.1",
+  "name": "@mokung/vue-tailwindcss-typeahead",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/vue-tailwindcss-typeahead.ssr.js",
   "browser": "dist/vue-tailwindcss-typeahead.esm.js",
