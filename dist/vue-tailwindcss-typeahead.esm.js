@@ -185,7 +185,7 @@ var __vue_render__ = function () {
       value: _vm.hideMenu,
       expression: "hideMenu"
     }],
-    staticClass: "w-full"
+    staticClass: "w-full relative"
   }, [_c('div', {
     staticClass: "mt-1 flex rounded-md shadow-sm"
   }, [_c('input', {
@@ -217,7 +217,7 @@ var __vue_render__ = function () {
       }]
     }
   })]), _vm._v(" "), _vm.filteredList.length > 0 && _vm.showSearchItems == true ? _c('aside', {
-    staticClass: "absolute z-10 flex flex-col items-start w-64 bg-white border rounded-md shadow-md mt-1",
+    staticClass: "absolute z-10 flex flex-col items-start min-w-full max-w-[80%] bg-white border rounded-md shadow-md mt-1",
     attrs: {
       "role": "menu",
       "aria-labelledby": "menu-heading"
@@ -227,7 +227,7 @@ var __vue_render__ = function () {
   }, _vm._l(_vm.filteredList, function (item, index) {
     return _c('li', {
       key: index,
-      staticClass: "px-2 py-3 space-x-2 hover:bg-blue-600 hover:text-white focus:bg-blue-600 focus:text-white focus:outline-none ",
+      staticClass: "text-sm cursor-pointer px-2 py-3 space-x-2 hover:bg-blue-600 hover:text-white focus:bg-blue-600 focus:text-white focus:outline-none ",
       on: {
         "click": function ($event) {
           _vm.selectSearchItem(item);
