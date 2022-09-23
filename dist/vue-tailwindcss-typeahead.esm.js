@@ -84,16 +84,9 @@ var script = {
   },
 
   created() {
-    if (this.selectedData != 0) {
-      const selected = this.lists.filter(item => {
-        if (item.id == this.selectedData) {
-          return true;
-        }
-
-        return false;
-      });
-      this.selectedItem = selected[0].name;
-      this.search = selected[0].name;
+    if(this.selectedItem){
+        this.selectedItem = selected[0].name
+        this.search = selected[0].name
     }
   }
 
