@@ -3,7 +3,7 @@
   "repository": {
     "url": "git://github.com/miokung/vue-tailwindcss-typeahead.git"
   },
-  "version": "1.0.2.1",
+  "version": "1.0.2a",
   "description": "",
   "main": "dist/vue-tailwindcss-typeahead.ssr.js",
   "browser": "dist/vue-tailwindcss-typeahead.esm.js",
